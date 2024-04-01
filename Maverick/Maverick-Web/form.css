@@ -1,0 +1,45 @@
+/* Card Styles */
+.crad-style {
+    margin: 30px;
+    text-align: justify;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.modal-body {
+    margin: 10px;
+}
+
+.topic {
+    text-align: center;
+}
+
+/* Container Styles */
+.container {
+    padding: 2rem 0rem;
+}
+
+h4 {
+    margin: 2rem 0rem 1rem;
+    font-size: 24px;
+    color: #333;
+    /* Adjust text color */
+}
+
+/* Table Styles */
+.table-image {
+
+    td,
+    th {
+        vertical-align: middle;
+    }
+}
+
+/* Center the submit button horizontally */
+.card-footer.text-end {
+    text-align: center;
+  }
+  
+  

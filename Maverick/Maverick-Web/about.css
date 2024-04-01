@@ -1,0 +1,37 @@
+ .card {
+     width: 100%;
+     max-width: 400px;
+     background-color: navy;
+     border-radius: 10px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+     padding: 20px;
+     text-align: center;
+     margin: auto;
+     margin-top: 30px;
+     animation: fadeIn 1s ease-in-out; 
+ }
+
+ .about {
+     margin: 0px;
+ }
+
+ .card h1 {
+     font-size: 24px;
+     margin-bottom: 20px;
+ }
+
+ .card p {
+     font-size: 16px;
+     color: #666;
+     text-align: justify;
+ }
+
+ @keyframes fadeIn {
+     0% {
+         opacity: 0;
+     }
+
+     100% {
+         opacity: 1;
+     }
+ }
